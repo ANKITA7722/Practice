@@ -1,0 +1,35 @@
+{
+  "employees": [
+    {
+      "empno": "103",
+      "name": "nitin",
+      "designation": "docter",
+      "salary": "8962"
+    },
+    {
+      "empno": "102",
+      "name": "mina",
+      "designation": "Actor",
+      "salary": "8000"
+    },
+    {
+      "empno": "104",
+      "name": "meena",
+      "designation": "hr",
+      "salary": "7000"
+    },
+    {
+      "empno": "105",
+      "name": "neha",
+      "designation": "mina",
+      "salary": "9000"
+    },
+    {
+      "empno": "106",
+      "name": "minakshi",
+      "designation": "ceo",
+      "salary": "8500"
+    }
+    
+  ]
+}
