@@ -11,14 +11,16 @@ const Emp=()=>{
     return(
         <>
         <h1> First Task</h1>
-        <table>
-            <tr>
-                <th>Empno</th>
+        <table >
+            <tbody >
+            <tr >
+                <th >Empno</th>
                 <th>Name</th>
                 <th>Designation</th>
                 <th>Salary</th>
             </tr>
             {ans}
+            </tbody>
         </table>
         </>
     )

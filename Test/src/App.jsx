@@ -11,6 +11,11 @@ import EmployeeData from "./EmployeeData";
 import EmpDesign from "./pages/EmpDesign";
 import EmpData from "./pages/EmpData";
 import Emp from "./pages/Emp";
+import Hoc from "./pages/Hoc";
+import HocWrap from "./pages/HocWrap";
+import Soperator from "./pages/Sperator";
+import Style from "./pages/Style";
+
 
 const App = () => {
   return (
@@ -28,6 +33,10 @@ const App = () => {
             <Route path="emp" element={<Emp/>} />
             <Route path="empdata" element={<EmpData/>} />
             <Route path="empdesign" element={<EmpDesign/>} />
+            <Route path="hoc" element={<Hoc/>} />
+            <Route path="hocwrap" element={<HocWrap/>} />
+            <Route path="soperator" element={<Soperator/>} />
+            <Route path="style" element={<Style/>} />
           </Route>
         </Routes>
       </BrowserRouter>

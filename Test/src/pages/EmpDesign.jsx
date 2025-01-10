@@ -4,11 +4,12 @@
 const EmpDesign=(props)=>{
     return(
         <>
-        <tr>
-        {props.eno}
-        {props.nm}
-        {props.des}
-        {props.sal}
+        <tr >
+            <td >{props.eno} </td>
+            <td> {props.nm} </td>
+            <td> {props.des} </td>
+            <td> {props.sal}</td>
+    
         </tr>
         
         </>
